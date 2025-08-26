@@ -1,0 +1,93 @@
+    1  cd /root
+    2  mkdir server_lesson && cd server_lesson
+    3  git version
+    4  git init
+    5  git init
+    6  git status
+    7  git add.
+    8  git status
+    9  touch first.txt
+   10  git status
+   11  git add.
+   12  git commit -m 'first commit'
+   13  git add .
+   14  git  status
+   15  git commit -m 'first commit'
+   16  git status
+   17  git remote add origin https://github.com/shoo611/server_lesson.git
+   18  git remote -v
+   19  git push origin master
+   20  mkdir public && cd public
+   21  touch index.php
+   22  ls
+   23  cp index.php index_bk.php
+   24  ls
+   25  cd../
+   26  rm public
+   27  cd /server_lesson
+   28  cd /server_lesson
+   29  cd ..
+   30  rm  public
+   31  rm -r public
+   32  ls
+   33  mkdir linux_practice1
+   34  ls
+   35  cd linux_practice1
+   36  mkdir public
+   37  cd public
+   38  touch index.php
+   39  ls
+   40  cp  index.php index_bk.php
+   41  ls
+   42  cd  ..
+   43  cp -r public tmp
+   44  ls
+   45  cd tmp && rm index_bk.php
+   46  ls
+   47  cd ..
+   48  cd ..
+   49  touch README.md
+   50  ls
+   51  git add ..
+   52  git add .
+   53  git commit -m 'practice-Q4Answer'
+   54  git push origin master
+   55  ls
+   56  vi README.md
+   57  git status
+   58  git add README.md
+   59  git status
+   60  git commit -m 'practice1-Q5'
+   61  git add origin master
+   62  git push origin master
+   63  mkdir linux_practice2 && cd linux_practice2
+   64  mkdir documents && cd  documents
+   65  touch gizumo{01..50}.md
+   66  ls
+   67  mkdir trash
+   68  ls
+   69   cd trash
+   70  mv gizumo{20..40}.md
+   71  mv gizumo{20..40}.md
+   72  cd..
+   73  cd ..
+   74  ls
+   75  mv gizumo{20..40}.md /trash
+   76  mv gizumo{20..40}.md trash
+   77  ls
+   78  cd trach
+   79  cd trash
+   80  ls
+   81  git status
+   82  cd
+   83  cd server_lesson
+   84  git status
+   85  git  add linux_practice2/
+   86  git status
+   87  git commit -m 'practice2-Q2'
+   88  git push origin master
+   89  cd linux_practice2
+   90  touch .gitignore
+   91  ls
+   92  vim .gitignore
+   93  history 300
